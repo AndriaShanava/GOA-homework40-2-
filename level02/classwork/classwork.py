@@ -1,4 +1,5 @@
-height = float(input("Enter your height in meters: "))
+height = float(input("შეიყვანეთ თქვენი სიმაღლე (მეტრებში): "))
 
-print("True" if height == "float" else "False")
+print(f"თქვენი სიმაღლე არის: {height}, და ეს არის {type(height)} ტიპი.")
+
 

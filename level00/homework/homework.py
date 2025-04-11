@@ -12,20 +12,19 @@
 # - განმარტებითი და მკაფიო: user_name ✅, userAge ✅
 # - ქვედატირეებით გამოყოფილი: first_name ✅, total_price ✅
 
-
 #არსწორი ვერსია
 
- ----------------
-     num 1 == 10
-     ----------------
-     academy = Goal Oriented Academy
-     ----------------
-     name = 'Jumbera'
-     name2 = 'mayvala'
-     print(name = Name2)
-     ————————
-     num = (“30”)
-     Print(str(num)+20)
+#  ----------------
+#      num 1 == 10
+#      ----------------
+#      academy = Goal Oriented Academy
+#      ----------------
+#      name = 'Jumbera'
+#      name2 = 'mayvala'
+#      print(name = Name2)
+#      ————————
+#      num = (“30”)
+#      Print(str(num)+20)
 
 #სწორი ვერსია
 
