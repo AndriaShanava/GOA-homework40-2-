@@ -1,5 +1,5 @@
 name  = "GOA"
-count = 9
+count = 0
 
 for i in name:
     count += 1
