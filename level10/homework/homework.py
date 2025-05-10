@@ -14,7 +14,7 @@ example_list2.append("d")
 print(example_list2)
 
 # 2) დაამატეთ ელემენტები კონკრეტულ ინდექსებზე insert ფუნქციის გამოყენებით
-data_types_list = [42, 3.14, "Hello", True, None, [1, 2, 3], {"key": "value"}, (4, 5)]
+data_types_list = [42, 3.14, "Hello", True]
 data_types_list.insert(3, "Inserted at 3")
 data_types_list.insert(5, "Inserted at 5")
 data_types_list.insert(7, "Inserted at 7")
@@ -34,7 +34,7 @@ print(example_list2)
 # append ამატებს ელემენტს სიის ბოლოში, ხოლო insert ამატებს ელემენტს კონკრეტულ ინდექსზე.
 
 # 4) ამოშალეთ ელემენტები კონკრეტულ ინდექსებზე pop ფუნქციის გამოყენებით
-data_types_list = [42, 3.14, "Hello", True, None, [1, 2, 3], {"key": "value"}, (4, 5)]
+data_types_list = [42, 3.14, "Hello", True]
 data_types_list.pop(3)
 data_types_list.pop(2)
 data_types_list.pop(5)
@@ -51,7 +51,7 @@ example_list2.pop(2)
 print(example_list2)
 
 # 5) ამოშალეთ კონკრეტული ელემენტები remove ფუნქციის გამოყენებით
-data_types_list = [42, 3.14, "Hello", True, None, [1, 2, 3], {"key": "value"}, (4, 5)]
+data_types_list = [42, 3.14, "Hello", True]
 data_types_list.remove(3.14)
 data_types_list.remove("Hello")
 data_types_list.remove(True)
