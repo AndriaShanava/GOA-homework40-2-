@@ -80,4 +80,3 @@ float_list = [1.1, 2.2, 3.3]
 string_list.extend(float_list)
 print(string_list)
 
-# 8) გაიარეთ Sololearn-ის list ფუნქციების მოდული დამატებითი პრაქტიკისთვის.
