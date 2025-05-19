@@ -47,9 +47,10 @@ def fesvi(num):
 def reverse_string(user):
     result = "" 
     for i in user:
-        result += i + "-"
+        result = i + "-" + result
     return result
-print(reverse_string("hello"))  # "h-e-l-l-o-"
+print(reverse_string("hello"))  
+
 # 5) ფუნქცია რომელიც აგროვებს სიტყვებს სიაში სანამ "საკმარისია" არ შემოვა
 
 def collect_until_enough(words):
@@ -63,9 +64,9 @@ def collect_until_enough(words):
 
 # Bonus: ფუნქცია რომელიც აბრუნებს რიცხვის გამყოფების ჯამს
 
-def sum_of_divisors(n):
+def sum_of_divisors(num):
     total = 0
-    for i in range(1, n+1):
-        if n % i == 0:
+    for i in range(1, num+1):
+        if num % i == 0:
             total += i
     return total

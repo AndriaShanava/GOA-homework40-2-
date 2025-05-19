@@ -5,4 +5,4 @@ def count_length(word):
     for i in word:
         count += 1
     return count
-print(count_length("nigaaaa"))  
+print(count_length("hello"))  
