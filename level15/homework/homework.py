@@ -14,8 +14,6 @@ def odd_index_odd_numbers(lst):
             result.append(num)
     return result
 
-    
-
 # 4) ფუნქცია, რომელიც მომხმარებლისგან იღებს რიცხვს და სტრინგს და აბრუნებს შესაბამის ინდექსზე მდგომ ასოს
 def char_at_index():
     s = input("შეიყვანეთ სტრინგი: ")
