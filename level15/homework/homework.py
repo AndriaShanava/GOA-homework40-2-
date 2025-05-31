@@ -7,26 +7,26 @@ def kent_indeqsze(string):
     return ''.__add__(*result) if result else ''
 
 # 2) ფუნქცია, რომელიც სიიდან კენტ ინდექსზე მდგომ კენტ რიცხვებს აშორებს და ახალ სიაში აგროვებს
-def odd_index_odd_numbers(lst):
+def luwi_indeqsze_luwi_ricxvi(lst):
     result = []
-    for i, num in enumerate(lst):
+    for i, num in(lst):
         if i % 2 == 1 and num % 2 == 1:
             result.append(num)
     return result
 
 # 4) ფუნქცია, რომელიც მომხმარებლისგან იღებს რიცხვს და სტრინგს და აბრუნებს შესაბამის ინდექსზე მდგომ ასოს
 def char_at_index():
-    s = input("შეიყვანეთ სტრინგი: ")
-    idx = int(input("შეიყვანეთ ინდექსი: "))
-    if 0 <= idx < len(s):
-        print(s[idx])
+    string = input("შეიყვანეთ სტრინგი: ")
+    index = int(input("შეიყვანეთ ინდექსი: "))
+    if 0 <= index < len(string):
+        print(string[index])
     else:
         print("არასწორი ინდექსი")
 
 # 5) ფუნქცია, რომელიც სიიდან აშორებს სიტყვებს, რომელთა სიგრძეც ნაკლებია 5-ზე
-def remove_short_words(lst):
+def aklebs_sityvas(lst):
     result = []
-    for word in lst:
-        if len(word) >= 5:
-            result.append(word)
+    for i in lst:
+        if len(i) >= 5:
+            result.append(i)
     return result
