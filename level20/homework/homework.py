@@ -20,30 +20,28 @@ def even_numbers_on_even_indices(nums):
     else:
         average = 0
     
-    print("ახალი სია:", result)
-    print("საშუალო არითმეტიკული:", average)
+    print(result)
+    print(average)
 
 even_numbers_on_even_indices([2, 3, 4, 5, 6, 7, 8])
 
 #3) ლუწი რიცხვების ჯამი და კენტი რიცხვების რაოდენობა
 
-number = int(input("შეიყვანე რიცხვი: "))
-even_sum = 0
-odd_count = 0
+def jami_da_raodenoba(number):
+    even_sum = 0
+    odd_count = 0
+    i = 1
+    while i <= number:
+        if i % 2 == 0:
+            even_sum += i
+        else:
+            odd_count += 1
+        i += 1
+    average = (even_sum + odd_count) / 2
+    print(even_sum)
+    print(odd_count)
+    print(average)
 
-i = 1
-while i <= number:
-    if i % 2 == 0:
-        even_sum += i
-    else:
-        odd_count += 1
-    i += 1
-
-average = (even_sum + odd_count) / 2
-
-print("ლუწი რიცხვების ჯამი:", even_sum)
-print("კენტი რიცხვების რაოდენობა:", odd_count)
-print("საშუალო არითმეტიკული:", average)
 
 #4) სახელი + რიცხვი → იპოვე ასობგერა
 
