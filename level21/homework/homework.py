@@ -1,6 +1,6 @@
 #1) ფუნქცია, რომელიც ამოწმებს სტრინგში არის თუ არა რიცხვი:
-def amowmebs_aris_stringi(word):
-    for i in word:
+def amowmebs_aris_stringi(sia):
+    for i in sia:
         if type(i) == str:
            return True
         else:
