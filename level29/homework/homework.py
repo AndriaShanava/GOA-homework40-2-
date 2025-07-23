@@ -14,6 +14,16 @@ def paperwork(n, m):
         return 0
     return n * m
 
+#3)
+
+
+def count_by(x, n):
+    list = []
+    for i in range(1, n + 1):
+        list.append(x * i)
+    return list
+
+
 #4)
 
 def greet(name):
