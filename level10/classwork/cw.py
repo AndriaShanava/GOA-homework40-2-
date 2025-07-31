@@ -1,7 +1,7 @@
 #3)შექმენით სია სადაც გექნებათ მოთავსებული ყველა მონაცემთა ტიპის ელემენტი,
 #თქვენი დავალებაა ამ სიიდან ამოშალოთ მესამე და ბოლო ინდექსზე მდგომი ელემენტები,გამოიყენეთ pop() ფუნქცია
 data_types_list = [42, "hello", 3.14, True]
-data_types_list.pop(2)  
+data_types_list.pop(3)  
 data_types_list.pop(-1)  
 print(data_types_list)
 
