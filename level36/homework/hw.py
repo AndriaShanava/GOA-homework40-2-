@@ -9,11 +9,9 @@ def to_alternating_case(string):
     return result
 
 #2)
-
-
-
-
-
+def is_palindrome(s):
+    s = s.lower()
+    return s == s[::-1]
 
 #3)
 def bonus_time(salary, bonus):
@@ -22,7 +20,8 @@ def bonus_time(salary, bonus):
     return f"${salary}"
 
 #4)
-
+def merge_arrays(arr1, arr2):
+    return sorted(set(arr1 + arr2))
 
 
 #5)

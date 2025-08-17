@@ -3,7 +3,7 @@
 def name(stringg):
     result = ""
     for i in range(len(stringg)):
-        if i % 2 == 1:  # Check if the index is odd
+        if i % 2 == 1:  
             result += stringg[i]
     return result
 
