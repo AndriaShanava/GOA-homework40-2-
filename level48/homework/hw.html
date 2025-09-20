@@ -1,0 +1,61 @@
+<!-- 2)შექმენით ვებსაიტი სადაც გექნებათ განლაგებული 5 პარაგრაფი 5 სათაური და 5 ღლაკი, სამივე ელემენტს ქონდეს განსხვავებული სტილები,
+მაგალითად 5 ივე პარაგრაფს ქონდეს ერთნაირიმ სტილი,5 ივე სათაურს ერთნაირი ,5 ივე ბათონს ერთნაირი მაგრამ სამივეს ნაგანსხვავებული,
+მაგრამ თითო ელემენტს მიეცით განსხვავებულის ტილები,მაგალითად 5 პარაგრაფს თუ აქვს ფერი წითელი 5 იდან ერთს მიეცით განსხვავებული სტილი,
+გაიმეორე იგივე სათაურზე და ღილაკზეც,გამოიყენეთ INTERNAL CSS,ცალკეული ელემენტების გასასტილად კი inline css -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h1{
+            color: red;
+            background-color: blanchedalmond;
+            border: 12px solid green;
+        }
+
+        p{
+            color: yellow;
+            background-color: blueviolet;
+            border:11px solid blue;
+            font-size: large;
+        }
+
+        button{
+            color: aquamarine;
+            background-color: burlywood;
+            border: 10px solid orange;
+        }
+
+    </style>
+
+    <header>
+        <h1>Lorem</h1>
+        <h1>Lorem</h1>
+        <h1>Lorem</h1>
+        <h1>Lorem</h1>
+        <h1 style="color: dodgerblue;">World</h1>
+    </header>
+
+    <main>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p style="color:brown;">ipsum</p>
+    </main>
+
+    <main>
+        <button>Click Here</button>
+        <button>Click Here</button>
+        <button>Click Here</button>
+        <button>Click Here</button>
+        <button style="color: chartreuse;">Bye Now</button>
+    </main>
+</body>
+</html>
