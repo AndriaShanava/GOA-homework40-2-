@@ -1,0 +1,54 @@
+.Number1{
+    color: orange;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid green;
+    box-shadow: 2px red;
+}
+
+.numberi{
+    color: blue;
+    background-color: aquamarine;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: end;
+    border: 3px solid yellowgreen;
+}
+
+.number2{
+    color: pink;
+    background-color: blueviolet;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: start;
+    border: 5px solid violet;
+}
+
+.number3{
+    color: white;
+    background-color: tomato;
+    font-size: smaller;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid maroon;
+}
+
+.number4{
+    color:steelblue;
+    background-color: sandybrown;
+    font-size: larger;
+    font-weight: bold;
+    text-align: end;
+    border:7px solid khaki;
+}
+
+.numbero{
+    color: turquoise;
+    background-color: gray;
+    font-size: medium;
+    font-weight: bold;
+    text-align: start;
+    border: 10px solid darkorchid;
+}

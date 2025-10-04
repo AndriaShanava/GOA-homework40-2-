@@ -1,0 +1,39 @@
+#number1{
+    color: red;
+    background-color: black;
+    border: 2px solid orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+#number2{
+    color: blue;
+    background-color: greenyellow;
+    border: 3px solid violet;
+    text-align: left;
+    font-weight: bold;
+}
+
+#number3{
+    color: yellow;
+    background-color: blueviolet;
+    border: 4px solid pink;
+    text-align: right;
+    font-weight: bold;
+}
+
+#number4{
+    color: chartreuse;
+    background-color: aqua;
+    border: 5px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+
+#number5{
+    color: indianred;
+    background-color: blanchedalmond;
+    border: 1px solid grey;
+    text-align: left;
+    font-weight: bold;
+}

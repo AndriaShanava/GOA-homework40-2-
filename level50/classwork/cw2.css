@@ -1,0 +1,25 @@
+header h1{
+    color: red;
+    background-color: blue;
+    border: 3px solid orange;
+    text-align: center;
+}
+
+main p{
+    color: green;
+    background-color: violet;
+    font-size: 12px;
+    text-align: center;
+}
+
+main img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+main button{
+    text-align: center;
+    background-color: yellowgreen;
+    color: cadetblue;
+}
