@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 800px;
+    height: 700px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}

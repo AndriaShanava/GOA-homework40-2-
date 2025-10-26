@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: orange;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  background-color: darkred;
+  border-radius: 50%;
+}
+
+.rounded {
+  width: 80px;
+  height: 80px;
+  background-color: gold;
+  border-radius: 15px;
+}

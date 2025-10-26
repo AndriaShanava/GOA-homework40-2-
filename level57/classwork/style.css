@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+  }
+
+  .box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+
+  .red { background-color: red; }
+  .green { background-color: green; }
+  .blue { background-color: blue; }
+
+  .box:hover {
+    filter: brightness(1.5);
+  }
+
+  .box:active {
+    background-color: yellow;
+  }
