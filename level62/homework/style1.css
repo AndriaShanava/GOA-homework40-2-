@@ -1,0 +1,15 @@
+.list1{
+    list-style: decimal-leading-zero;
+}
+
+.list3{
+     list-style: georgian;
+}
+
+.list4{
+    list-style: upper-roman;
+}
+
+.list5{
+    list-style: lower-greek;
+}

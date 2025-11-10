@@ -1,0 +1,11 @@
+a:hover{
+    background-color: green;
+    color: red;
+    text-decoration: none;
+}
+
+a:active{
+    color: orange;
+    background-color: aqua;
+    text-decoration:underline dotted violet;
+}

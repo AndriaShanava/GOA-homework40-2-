@@ -1,0 +1,11 @@
+.first{
+    text-transform: uppercase;
+}
+
+.second{
+    text-transform: capitalize;
+}
+
+.third{
+    text-transform: lowercase;
+}

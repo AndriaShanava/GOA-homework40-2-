@@ -1,0 +1,12 @@
+a:link{
+    color: violet;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-shadow:2px 3px 5px violet;
+}
+
+a:visited{
+    color: red;
+    text-decoration: underline dashed;
+    text-shadow: 2px 3px 5px red;
+}

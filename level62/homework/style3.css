@@ -1,0 +1,11 @@
+.list1{
+    list-style: url("check.png");
+}
+
+.list2{
+    list-style: url("close.png");
+}
+
+.list3{
+    list-style: url("box.png");
+}

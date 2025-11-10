@@ -1,0 +1,37 @@
+table {
+  border-collapse: collapse;
+  width: 1500px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+th {
+  background-color: #222;
+  padding: 10px;
+}
+
+td {
+  padding: 12px;
+}
+
+tr:nth-child(2) {
+  background-color: #3498db;
+}
+
+tr:nth-child(3) {
+  background-color: #14a2af;
+}
+
+tr:nth-child(4) {
+  background-color: #f4c542;
+}
+
+tr:nth-child(5) {
+  background-color: #e74c3c;
+}
+
+tr:nth-child(6) {
+  background-color: #2ca02c;
+}
