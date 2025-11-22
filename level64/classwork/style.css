@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+}
+
+.first{
+    background-color: violet;
+    margin: 200px 100px;
+}
+
+.second{
+    background-color: red;
+    margin: 50px 100px 200px 30px;
+}

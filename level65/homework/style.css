@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    background-color: #ffe732;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    background: white;
+    width: 300px;
+    border-radius: 16px;
+    box-shadow: 8px 8px 0px black;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .Learning {
+    background: #F4CE54;
+    color: black;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    display: inline-block;
+    width: fit-content;
+  }
+
+  h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+  }
+  
+  .author img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }

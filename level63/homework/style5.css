@@ -1,0 +1,8 @@
+a:link{
+    color: red;
+    text-decoration: none;
+}
+
+a:visited{
+    font-weight: bold;
+}
