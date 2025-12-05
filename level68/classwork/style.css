@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #e6dcd3; 
+}
+
+.Simple-Omelette-Recipe {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Simple-Omelette-Recipe img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Simple-Omelette-Recipe h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.Simple-Omelette-Recipe p {
+    font-size: 1em;
+    color: #555;
+}
+
+.Prepration-time { 
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.Prepration-time h2 {
+    font-size: 1.5em;
+    color: #de0e9250;
+    margin-bottom: 10px;
+}
+
+.Prepration-time ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Prepration-time ul li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.Ingredients h2, .Instructions h2, .Nutrition h2 {
+    font-size: 1.5em;
+    color: #FFEEE5;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Ingredients ul, .Instructions ol, .Nutrition ul {
+    padding-left: 20px;
+    color: #db7d6350;
+}
+
+.Ingredients ul li, .Instructions ol li, .Nutrition ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.Instructions ol {
+    list-style-type: decimal;
+}
+
+.Nutrition p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.Nutrition ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Nutrition ul li {
+    margin-bottom: 5px;
+    color: #555;
+}
