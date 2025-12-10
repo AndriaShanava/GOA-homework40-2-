@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  height: 100vh;  
+  font-family: "League Spartan", sans-serif;
+  background: hsl(0, 0%, 100%);
+  padding: 40px;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.text-box h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.text-box p {
+  color: hsl(303, 10%, 53%);
+  max-width: 350px;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.rate-box {
+  background: hsl(300, 24%, 96%);
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+
+.reviews {
+  display: flex;
+  gap: 20px;
+}
+
+.image{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.card {
+  background: hsl(300, 43%, 22%);
+  padding: 25px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card span {
+  color: hsl(333, 80%, 67%);
+  font-size: 14px;
+}
+
+.card p {
+  color: hsl(300, 24%, 96%);
+  line-height: 1.4;
+}
