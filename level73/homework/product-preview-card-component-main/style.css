@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    border: none;
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.container{
+    background-color: blue;
+    width:40% ;
+    height:60%;
+    display: flex;
+    border-radius: 20px;
+}
+
+.left{
+    background-image:url(images/image-product-desktop.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+    
+}
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    padding: 35px;
+    border-radius: 0 10px 10px 0 ;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+p{
+   color:  hsl(228, 12%, 48%);
+   margin-top: 20px;
+   line-height: 1.5;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 10px;
+}
+.h1{
+    color: hsl(158, 36%, 37%);
+}
+
+button{
+    margin-top: 20px;
+    height: 55px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    font-size: 1.1em;
+}
+
+.Perfume{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}

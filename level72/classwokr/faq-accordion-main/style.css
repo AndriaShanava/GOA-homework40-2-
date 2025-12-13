@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+  height: 100vh;
+  background-image: url("background-pattern-desktop.svg");  
+  background: hsl(275, 100%, 97%);
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+}
+
+.card {
+  background: white;
+  width: 450px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 30px 40px rgba(0,0,0,0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: hsl(292, 42%, 14%);
+}
+
+.star {
+  width: 35px;
+}
+
+.faq-item {
+  border-bottom: 1px solid hsl(275, 100%, 90%);
+  padding: 18px 0;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-question p {
+  font-weight: 600;
+  color: hsl(292, 42%, 14%);
+}
+
+.faq-answer {
+  color: hsl(292, 16%, 49%);
+  font-size: 16px;
+  margin-top: 12px;
+  line-height: 1.5;
+  display: block;
+}
+
+.icon {
+  width: 28px;
+}
