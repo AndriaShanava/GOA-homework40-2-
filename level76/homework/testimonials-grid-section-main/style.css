@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 700px;
+    width: 1500px;
+}
+
+.yellow{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.orange{
+    display: flex;
+    gap: 20px;
+    height: 50%;
+}
+
+.purple{
+    height: 100%;
+    width: 700px;
+}
+
+.grey{
+    height: 100%;
+    width: 350px;
+}
+
+.another_div{
+    width: 350px;
+}
+
+.white{
+    height: 100%;
+    width: 350px;
+}
+
+.black{
+    height: 100%;
+    width: 700px;
+}
+
+.same{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 35px;
+}
+
+.inside{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.name{
+    font-size: 19px;
+    font-weight: 600;
+    
+}
+
+.verified{
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 70%;
+}
+
+.paragraph{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.big{
+    font-size: 18px;
+    opacity: 70%;
+}
+
+.paragraph, .verified, .name, .big{
+    color: white;
+}
+

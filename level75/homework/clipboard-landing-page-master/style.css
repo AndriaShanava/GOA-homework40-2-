@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  line-height: 28px;
+}
+
+section {
+  padding: 64px 24px;
+}
+
+.hero {
+  background-image: url("./images/bg-header-desktop.png");
+  background-size: cover;
+  background-position: center;
+  padding: 96px 24px;
+}
+
+.logo {
+  margin-bottom: 32px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.btn {
+  padding: 16px 40px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.ios {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.mac {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.section-text {
+  max-width: 650px;
+  margin: auto;
+}
+
+.snippets-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  max-width: 1200px;
+  margin: 64px auto 0 auto;
+}
+
+.snippets-content img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.snippets-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.snippets-list h3 {
+  font-size: 24px;
+}
+
+.access img {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 48px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  gap: 16px;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px;
+  margin-top: 64px;
+}
+
+.logos img {
+  max-height: 40px;
+}
+
+.cta {
+  background-color: #f5f6f8;
+}
+
+.footer {
+  background-color: #f0f1f3;
+  padding: 48px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.social {
+  display: flex;
+  gap: 16px;
+}
