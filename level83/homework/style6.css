@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.r1, .r2, .r3, .r4{
+    width: 150px;
+    height: 150px;
+}
+
+.r1{
+    background-image: url("image.png");
+    background-repeat: repeat;
+}
+
+.r2{
+    background-image: url("image.png");
+    background-repeat: repeat-x;
+}
+
+.r3{
+    background-image: url("image.png");
+    background-repeat: repeat-y;
+}
+
+.r4{
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+}

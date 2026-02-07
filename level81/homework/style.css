@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+
+img{
+    top: 0;
+    position: fixed;
+}

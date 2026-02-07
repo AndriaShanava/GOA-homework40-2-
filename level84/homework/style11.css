@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    border: 1px solid #000;
+    margin: 15px 0;
+}
+
+.task11{
+    width: 400px;
+    height: 250px;
+    background: url("image.png") center / cover no-repeat;
+}

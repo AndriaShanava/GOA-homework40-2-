@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.same{
+    height: 500px;
+    width: 500px;
+    background-image: url("image.png");
+}
+
+.first{
+    background-repeat: repeat;
+}
+.second{
+    background-repeat: no-repeat;
+}
+
+.third{
+    background-repeat: repeat-x;
+}
+
+.fourd{
+    background-repeat: repeat-y;
+}

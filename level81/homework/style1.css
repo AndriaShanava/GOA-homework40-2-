@@ -1,0 +1,44 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4aa0c8;
+    font-family: Arial, sans-serif;
+    padding-top: 70px; 
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3b8fb5;
+    padding: 20px 40px;
+    z-index: 1000;
+}
+
+nav{
+    display: flex;
+    gap: 40px; 
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.content img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}

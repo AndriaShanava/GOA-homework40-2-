@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+}
+
+.blue {
+  background: #4a86e8;
+  top: 120px;
+  left: 20px;
+  z-index: 1;
+}
+
+.red {
+  background: #e53935;
+  top: 90px;
+  left: 60px;
+  z-index: 2;
+}
+
+.yellow {
+  background: #f4c20d;
+  top: 60px;
+  left: 100px;
+  z-index: 3;
+}
+
+.green {
+  background: #7cb342;
+  top: 30px;
+  left: 140px;
+  z-index: 4;
+}

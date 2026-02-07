@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 700px;
+    width: 700px;
+    border: 1px solid red;
+    background: url("image.png") center / cover no-repeat;
+}
+

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.box5{
+    width: 200px;
+    height: 200px;
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    margin: 20px;
+}

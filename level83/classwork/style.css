@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.same{
+    height: 700px;
+    width: 700px;
+}
+
+.first{
+    background-image: url("image.png");
+}
+
+.second{
+    background-image: url("image\ copy.png");
+}
