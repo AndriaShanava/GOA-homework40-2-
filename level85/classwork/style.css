@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+}
+
+.first{
+    transform: translateX(300px);
+}
+
+.second{
+    transform: translateY(150px);
+}
+
+.third{
+    transform: translate(100px, -80px);
+}

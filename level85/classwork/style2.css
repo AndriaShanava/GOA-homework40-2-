@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+}
+
+.first{
+    background-color: red;
+    transform: scaleX(3);
+}
+
+.second{
+    background-color: blue;
+    transform: scaleY(3);
+}
+
+.third{
+    background-color: green;
+    transform: scale(4, 4);
+}
