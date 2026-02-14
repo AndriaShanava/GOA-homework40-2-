@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img1{
+    width: 200px;
+    transform: rotateX(40deg);
+}
+
+.img2{
+    width: 200px;
+    transform: rotateY(70deg);
+}
+
+.img3{
+    width: 200px;
+    transform: rotate(75deg);
+}

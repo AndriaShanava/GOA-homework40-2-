@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img1{
+    transform-origin: right bottom;
+    transform: rotate(140deg);
+}
+
+img2{
+    transform-origin: left bottom;
+    transform: rotate(245deg);
+}

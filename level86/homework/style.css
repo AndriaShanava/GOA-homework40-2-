@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* 1 */
+.box1{
+    width:100px;
+    height:100px;
+    background:red;
+    transform: rotateX(30deg);
+}
+
+/* 2 */
+.box2{
+    width:100px;
+    height:100px;
+    background:blue;
+    transform: rotateY(55deg);
+}
+
+/* 3 */
+.btn{
+    padding:15px 25px;
+    cursor:pointer;
+}
+.btn:hover{
+    transform: rotate(90deg);
+}
+
+/* 4 */
+.box4{
+    width:100px;
+    height:100px;
+    background:green;
+}
+
+.box4:hover{
+    transform: rotateX(60deg);
+}
+
+/* 5 */
+.box5{
+    width:120px;
+    height:120px;
+    background:orange;
+    transform: rotate(45deg);
+}
+
+.leftTop{ 
+    transform-origin:left top; 
+}
+
+.rightBottom{ 
+    transform-origin:right bottom; 
+}
+
+/* 6 */
+.rect{
+    width:150px;
+    height:30px;
+    background:purple;
+    transform-origin: left top;
+    transform: rotate(90deg);
+}
+
+/* 7 */
+.box7{
+    width:100px;
+    height:100px;
+    background:pink;
+    transform-origin: right top;
+}
+.box7:hover{
+    transform: rotate(180deg);
+}
+
+/* 8 */
+.card{
+    width:200px;
+    height:200px;
+    background:gray;
+    transform-origin: top;
+    transform: rotateX(60deg);
+}
+
+/* 9 */
+.box9{
+    width:120px;
+    height:120px;
+    background:cyan;
+    transform-origin: bottom;
+}
+.box9:hover{
+    transform: rotateX(70deg);
+}
+
+/* 10 translate & scale */
+.translate1{
+    width:80px;
+    height:80px;
+    background:black;
+    transform: translate(50px,20px);
+}
+.translate2{
+    width:80px;
+    height:80px;
+    background:brown;
+    transform: translateX(60px);
+}
+
+.scale1{
+    width:80px;
+    height:80px;
+    background:gold;
+    transform: scale(1.5);
+}
+.scale2{
+    width:80px;
+    height:80px;
+    background:silver;
+    transform: scale(1,2);
+}
+
+/* 11 */
+.bg1{
+    width:300px;
+    height:200px;
+    background-image:url("image.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/* 12 */
+.bg2{
+    width:500px;
+    height:500px;
+    background-image:url("image.png");
+    background-repeat:no-repeat;
+    background-position: top right;
+}

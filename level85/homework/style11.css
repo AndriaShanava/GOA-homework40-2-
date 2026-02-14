@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
-button.hover{
+
+button:hover{
     transform: scale(1.2);
 }
