@@ -1,0 +1,23 @@
+.container{
+    display:flex;
+    gap:10px;
+}
+
+.box{
+    width:80px;
+    height:80px;
+    background:teal;
+    transition: transform 1s;
+}
+
+.b2{
+    transition-delay:0.5s;
+}
+
+.b3{
+    transition-delay:1s;
+}
+
+.box:hover{
+    transform: translateY(-50px);
+}

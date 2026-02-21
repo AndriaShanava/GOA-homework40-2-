@@ -1,0 +1,12 @@
+div{
+    width:150px;
+    height:200px;
+    background:gray;
+    transition: background 0.5s, border-radius 1s, transform 1.5s;
+}
+
+div:hover{
+    background:pink;
+    border-radius:30px;
+    transform: scale(1.2);
+}

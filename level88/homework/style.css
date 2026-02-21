@@ -1,0 +1,86 @@
+/* 1)  */
+.card{
+    width: 250px;
+    padding: 15px;
+    background: #f2f2f2;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    background: #e8e8ff;
+}
+
+
+/* 2)*/
+.btn{
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    background: royalblue;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    transform: rotate(5deg);
+    color: yellow;
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
+
+
+/* 3)*/
+.slide{
+    width: 120px;
+    height: 120px;
+    background: teal;
+    transform: translateX(-150px);
+    transition: transform 3s, background 5s;
+    margin-top: 20px;
+}
+
+.slide:hover{
+    transform: translateX(0);
+    background: orange;
+}
+
+
+/* 4) */
+.rotate-img{
+    width: 200px;
+    margin-top: 20px;
+    transition: transform 2.5s, opacity 4s;
+}
+
+.rotate-img:hover{
+    transform: rotateY(180deg);
+    opacity: 0.6;
+}
+
+
+/* 5) */
+.bg-div{
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    margin-top: 20px;
+    transition: background 0.5s;
+}
+
+.bg-div:hover{
+    background: url('https://picsum.photos/300') no-repeat center/cover;
+}

@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transition: width 3s, background-color 5s, border 1s;
+    transition-delay: 3s;
+}
+
+div:hover{
+    width: 300px;
+    background-color: violet;
+    border: 2px solid yellow;
+}

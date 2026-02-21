@@ -1,0 +1,31 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.box{
+    width:60px;
+    height:60px;
+    background:purple;
+    transition: transform 4s;
+}
+ 
+.ease{
+    transition-timing-function:ease;
+}
+
+.linear{
+    transition-timing-function:linear;
+}
+
+.easein{
+    transition-timing-function:ease-in;
+}
+
+.easeout{
+    transition-timing-function:ease-out;
+}
+
+.box:hover{
+    transform:translateX(200px);
+}

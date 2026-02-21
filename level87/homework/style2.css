@@ -1,0 +1,11 @@
+button{
+    padding:15px 25px;
+    background:black;
+    color:white;
+    border:none;
+    transition: background 0.5s, color 0.5s;
+}
+button:hover{
+    background:yellow;
+    color:black;
+}

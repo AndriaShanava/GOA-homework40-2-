@@ -1,0 +1,10 @@
+div{
+    width:150px;
+    height:200px;
+    background:orange;
+    transition: transform 0.5s;
+}
+
+div:hover{
+    transform: scale(1.2) rotate(5deg);
+}
