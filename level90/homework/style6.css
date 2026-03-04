@@ -1,0 +1,17 @@
+.box{
+  width:80px;
+  height:80px;
+  background:orange;
+  animation: move 3s 2 1s;
+}
+
+@keyframes move{
+  from{
+    transform:translateX(0);
+    width:80px;
+  }
+  to{
+    transform:translateX(300px);
+    width:150px;
+  }
+}

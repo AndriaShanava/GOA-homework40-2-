@@ -1,0 +1,16 @@
+.box{
+  width:80px;
+  height:80px;
+  background:purple;
+  animation: scale 3s 7 2s;
+}
+
+@keyframes scale{
+  from{
+    transform:scale(0.3);
+}
+
+  to{
+    transform:scale(2);
+}
+}

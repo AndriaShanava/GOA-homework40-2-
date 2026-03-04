@@ -1,0 +1,16 @@
+.square{
+  width:100px;
+  height:100px;
+  background:red;
+  animation: color 2s 3s infinite;
+}
+
+@keyframes color{
+  from{
+    background:red;
+}
+
+  to{
+    background:blue;
+}
+}

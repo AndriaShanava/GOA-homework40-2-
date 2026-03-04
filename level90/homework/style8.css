@@ -1,0 +1,16 @@
+.square{
+  width:100px;
+  height:100px;
+  background:pink;
+  animation: combo 1.5s 5;
+}
+
+@keyframes combo{
+  from{
+    transform:scale(0.5) rotate(0deg);
+}
+
+  to{
+    transform:scale(1.2) rotate(360deg);
+}
+}

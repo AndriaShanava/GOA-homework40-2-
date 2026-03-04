@@ -1,0 +1,14 @@
+img{
+  width:120px;
+  animation: rotate 2s 5;
+}
+
+@keyframes rotate{
+  from{
+    transform:rotate(0deg);
+}
+
+  to{
+    transform:rotate(360deg);
+}
+}

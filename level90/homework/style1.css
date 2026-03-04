@@ -1,0 +1,17 @@
+.box{
+  width:100px;
+  height:100px;
+  background:green;
+  opacity:0;
+  animation: changediv 2s 3s;
+}
+
+@keyframes changediv{
+  from{
+    opacity:0;
+}
+
+  to{
+    opacity:1;
+}
+}

@@ -1,0 +1,14 @@
+button{
+  padding:10px 20px;
+  animation: move 2s 3;
+}
+
+@keyframes move{
+  from{
+    transform:translateX(-200px);
+}
+
+  to{
+    transform:translateX(0);
+}
+}
