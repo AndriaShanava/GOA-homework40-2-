@@ -1,0 +1,42 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move{
+    0%{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+
+    25%{
+        background-color: green;
+        border-radius: 10px;
+        border: 1px solid yellow;
+    }
+
+    50%{
+        background-color: yellow;
+        border-radius: 30px;
+        border: 1px solid green;
+        transform: translateX(300px);
+    }
+
+    75%{
+        background-color: violet;
+        border-radius: 50px;
+        border: 1px solid red;
+        transform: rotate(180deg);
+    }
+
+    100%{
+        background-color: orange;
+        border-radius: 50%;
+        border: 1px solid blue;
+    }
+}

@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: skyblue;
+    overflow: hidden;
+}
+
+.road {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: #444;
+    top: 450px;
+    border-top: 6px solid #555;
+}
+
+.line {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    border-top: 8px dashed white;
+}
+
+.traffic-box {
+    position: absolute;
+    right: 320px;
+    top: -120px;
+    width: 40px;
+    height: 110px;
+    background: #222;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    z-index: 10;
+}
+
+.light {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #333;
+}
+
+.light:nth-child(1) {
+    animation: red-light 8s infinite;
+}
+
+.light:nth-child(2) {
+    animation: yellow-light 8s infinite;
+}
+
+.light:nth-child(3) {
+    animation: green-light 8s infinite;
+}
+
+.car {
+    position: absolute;
+    bottom: 40px;
+    left: -400px;
+    width: 350px;
+    z-index: 5;
+    animation: drive 8s linear forwards;
+}
+
+.sirens {
+    position: absolute;
+    bottom: 100%;
+    left: 42%;
+    display: flex;
+    gap: 5px;
+    transform: translateX(-50%) translateY(20px);
+}
+
+.siren {
+    width: 25px;
+    height: 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.red-siren {
+    background: red;
+    animation: blink-red 0.3s infinite;
+}
+
+.blue-siren {
+    background: blue;
+    animation: blink-blue 0.3s infinite linear 0.15s;
+}
+
+.car-body {
+    width: 350px;
+}
+
+.wheel {
+    width: 75px;
+    position: absolute;
+    bottom: -5px;
+    animation: spin 0.7s linear infinite;
+}
+
+.wheel1 {
+    left: 45px;
+}
+
+.wheel2 {
+    right: 48px;
+}
+
+.human {
+    position: absolute;
+    width: 80px;
+    right: 150px;
+    bottom: 40px;
+    animation: disappear 0.1s forwards;
+    animation-delay: 7.2s;
+}
+
+.traffic {
+    height: 300px;
+    position: absolute;
+    right: 250px;
+    bottom: 40px;
+    width: 300px;
+    transform-origin: bottom;
+}
+
+@keyframes drive {
+    0% { 
+        left: -400px; 
+    }
+    20% { 
+        left: 10%; 
+    }
+    50% { 
+        left: 10%; 
+    }
+    90% { 
+        left: 65%; 
+    }
+    100% { 
+        left: 65%; 
+    }
+}
+
+@keyframes red-light {
+    0%, 40% { 
+        background: red; box-shadow: 0 0 15px red; 
+    }
+    41%, 100% { 
+        background: #333; 
+    }
+}
+
+@keyframes yellow-light {
+    0%, 40% { 
+        background: #333; 
+    }
+    41%, 50% { 
+        background: yellow; box-shadow: 0 0 15px yellow; 
+    }
+    51%, 100% { 
+        background: #333; 
+    }
+}
+
+@keyframes green-light {
+    0%, 50% { 
+        background: #333; 
+    }
+    51%, 100% { 
+        background: lime; box-shadow: 0 0 15px lime; 
+    }
+}
+
+@keyframes blink-red {
+    50% { 
+        opacity: 0.3; 
+    }
+}
+
+@keyframes blink-blue {
+    50% { 
+        opacity: 0.3; 
+    }
+}
+
+@keyframes disappear {
+    to { 
+        opacity: 0; transform: scale(0); 
+    }
+}
+
+@keyframes spin {
+    to { 
+        transform: rotate(360deg); 
+    }
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: skyblue;
+}
+
+.road {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: #444;
+    top: 450px;
+    border-top: 6px solid #555;
+}
+
+.line {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    border-top: 8px dashed white;
+}
+
+.car {
+    position: absolute;
+    bottom: 40px;
+    left: -400px;
+    width: 350px;
+    z-index: 5;
+    animation: drive 5s linear forwards;
+}
+
+.car-body {
+    width: 350px;
+}
+
+.wheel {
+    width: 75px;
+    position: absolute;
+    bottom: -5px;
+    animation: spin 0.7s linear infinite;
+}
+
+.wheel1 {
+    left: 45px;
+}
+
+.wheel2 {
+    right: 48px;
+}
+
+.traffic {
+    height: 300px;
+    position: absolute;
+    right: 250px;
+    bottom: 40px;
+    width: 300px;
+    transform-origin: bottom;
+    animation: fall 0.4s forwards;
+    animation-delay: 3.8s;
+}
+
+@keyframes drive {
+    0% {
+        left: -400px;
+    }
+    75% {
+        left: 55%;
+    }
+    100% {
+        left: 58%;
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fall {
+    to {
+        transform: rotate(85deg);
+    }
+}

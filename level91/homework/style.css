@@ -1,0 +1,20 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: changediv 4s ease-in-out 5s both;
+}
+
+@keyframes changediv{
+    from{
+        background-color: yellow;
+        border-radius: 5px;
+        border: 6px solid green;
+    }
+
+    to{
+        transform: translate(200px, 300px);
+        background-color: violet;
+        border: 5px solid yellow;
+    }
+}

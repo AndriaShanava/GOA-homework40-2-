@@ -1,0 +1,9 @@
+.parent{
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+}
