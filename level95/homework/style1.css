@@ -1,0 +1,10 @@
+.grid1 {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  gap: 10px;
+}
+
+.grid1 div {
+  height: 100px;
+  background: red;
+}

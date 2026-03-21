@@ -1,0 +1,11 @@
+.grid5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    height: 200px;
+}
+
+.grid5 div {
+    background: purple;
+}
