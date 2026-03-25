@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 600px;
+    height: 600px;
+    border: 5px solid red;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 5px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.pirveli {
+    background: red;
+}
+
+.meore {
+    background: blue;
+}
+
+.mesame {
+    background: green;
+}
+
+.meotxe {
+    background: purple;
+}
+
+.mexute {
+    background: orange;
+}
+
+.meeqvse {
+    background: teal;
+}
+
+.meshvide {
+    background: brown;
+}
+
+.merve {
+    background: pink;
+}
+
+.mecxre {
+    background: gray;
+}
+
