@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    height: 800px;
+    width: 1000px;
+    display: grid;
+    grid-template-rows: 100px 250px 250px 100px;
+    grid-template-columns: 250px 300px 300px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.pirveli {
+    background-color: red;
+    grid-column: 1 / 4;
+    border-radius: 10px;
+}
+
+.stafilosferi {
+    background-color: orange;
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+    border-radius: 10px;
+}
+
+.lurji {
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.meore {
+    background-color: green;
+    grid-column: 1 / 4;
+    border-radius: 10px;
+}
+

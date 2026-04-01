@@ -1,0 +1,50 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  height:100vh;
+  display:grid;
+  justify-content:center;
+  align-items:center;
+  background:#f2f2f2;
+}
+
+.container{
+  display:grid;
+  grid-template-columns: 250px 250px 250px;
+  border-radius:10px;
+}
+
+.card{
+  padding:40px;
+  color:white;
+}
+
+.sedan{
+  background:#e38826;
+}
+
+.suv{
+  background:#006970;
+}
+
+.luxury{
+  background:#004241;
+}
+
+.card h2{
+  margin-bottom:20px;
+}
+
+.card p{
+  margin-bottom:30px;
+}
+
+button{
+  padding:10px 20px;
+  border:none;
+  border-radius:20px;
+}
