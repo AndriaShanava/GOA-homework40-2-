@@ -1,0 +1,13 @@
+.parent{
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-rows: repeat(4, 150px);
+    grid-template-columns: repeat(4, 150px);
+}
+
+.yellow{
+    background-color: yellow;
+    grid-row: 1 / 5;
+    grid-column: 1 /5;
+}
