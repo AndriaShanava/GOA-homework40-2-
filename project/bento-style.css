@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* ========== CSS Variables ========== */
+:root {
+  /* Colors */
+  --color-purple-500: hsl(256, 67%, 59%);
+  --color-purple-100: hsl(254, 88%, 90%);
+  --color-yellow-500: hsl(39, 100%, 71%);
+  --color-yellow-100: hsl(31, 66%, 93%);
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-text-dark: #111111;
+  --color-border: #e5e5e5;
+  --color-bg: #f5f5f5;
+
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 20px;
+  --spacing-lg: 25px;
+  --spacing-xl: 50px;
+
+  /* Border & Radius */
+  --border-radius: 12px;
+  --border-width: 1px;
+
+  /* Typography */
+  --font-family: 'DM Sans', sans-serif;
+  --font-size-base: 16px;
+  --font-size-lg: 22px;
+  --font-size-xl: 40px;
+  --font-size-xxl: 50px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Grid */
+  --grid-gap: 20px;
+  --grid-max-width: 1100px;
+  --card-width: 260px;
+  --card-height-lg: 320px;
+  --card-height-md: 240px;
+
+  /* Transitions */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-hover: transform 0.2s ease-out;
+}
+
+/* ========== Reset & Base Styles ========== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+  color: var(--color-text-dark);
+  padding: var(--spacing-xl) 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ========== Grid Container ========== */
+.bento-grid {
+  display: grid;
+  width: 100%;
+  max-width: var(--grid-max-width);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: var(--card-height-lg) var(--card-height-md) var(--card-height-md);
+  gap: var(--grid-gap);
+  padding: 0 var(--spacing-md);
+}
+
+/* ========== Card Base Styles ========== */
+.card {
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: var(--transition-smooth);
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* ========== Color Variants ========== */
+.purple-500 {
+  background-color: var(--color-purple-500);
+  color: var(--color-white);
+}
+
+.purple-100 {
+  background-color: var(--color-purple-100);
+  color: var(--color-text-dark);
+}
+
+.yellow-500 {
+  background-color: var(--color-yellow-500);
+  color: var(--color-text-dark);
+}
+
+.yellow-100 {
+  background-color: var(--color-yellow-100);
+  color: var(--color-text-dark);
+}
+
+.white {
+  background-color: var(--color-white);
+  color: var(--color-text-dark);
+  border: var(--border-width) solid var(--color-border);
+}
+
+/* ========== Typography ========== */
+.card h1,
+.card h2 {
+  line-height: 1.2;
+  margin-bottom: var(--spacing-md);
+}
+
+.card h1 {
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-bold);
+}
+
+.card h2 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+}
+
+.card h2.stat {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-xs);
+}
+
+.card p {
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.highlight {
+  color: var(--color-yellow-500);
+}
+
+.card em {
+  font-style: italic;
+  font-weight: var(--font-weight-medium);
+}
+
+/* ========== Images ========== */
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: auto;
+  transition: var(--transition-hover);
+}
+
+.card:hover img {
+  transform: scale(1.02);
+}
+
+/* ========== Grid Positioning ========== */
+.create {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.hero {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.optimize {
+  grid-column: 4 / 5;
+  grid-row: 1 / 3;
+}
+
+.accounts {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.schedule {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.write {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.audience {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.grow {
+  grid-column: 3 / 5;
+  grid-row: 3 / 4;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.grow img {
+  max-width: 50%;
+  margin-top: 0;
+  flex-shrink: 0;
+}
+
+/* ========== Responsive Design ========== */
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+  :root {
+    --grid-max-width: 900px;
+    --card-width: 200px;
+  }
+
+  .bento-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    padding: 0 var(--spacing-sm);
+  }
+
+  .create {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .hero {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+  }
+
+  .optimize {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+
+  .accounts {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .schedule {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .write {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+
+  .audience {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .grow {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+  }
+
+  .grow img {
+    max-width: 40%;
+  }
+}
+
+/* Mobile (480px - 767px) */
+@media (max-width: 767px) {
+  :root {
+    --spacing-xl: 30px;
+    --card-height-lg: auto;
+    --card-height-md: auto;
+    --font-size-xxl: 36px;
+    --font-size-xl: 32px;
+  }
+
+  body {
+    padding: var(--spacing-lg) 0;
+  }
+
+  .bento-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: var(--spacing-md);
+    padding: 0 var(--spacing-sm);
+    max-width: 100%;
+  }
+
+  .create,
+  .hero,
+  .optimize,
+  .accounts,
+  .schedule,
+  .write,
+  .audience,
+  .grow {
+    grid-column: 1 !important;
+    grid-row: auto !important;
+  }
+
+  .hero {
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+  .card h1 {
+    font-size: 28px;
+  }
+
+  .card h2 {
+    font-size: 18px;
+  }
+
+  .grow {
+    flex-direction: column;
+  }
+
+  .grow img {
+    max-width: 100%;
+  }
+}
+
+/* Small Mobile (< 480px) */
+@media (max-width: 479px) {
+  :root {
+    --spacing-lg: 16px;
+    --font-size-xxl: 28px;
+    --font-size-xl: 24px;
+  }
+
+  .card {
+    padding: var(--spacing-md);
+  }
+
+  .card h1 {
+    font-size: 22px;
+  }
+
+  .card h2 {
+    font-size: 16px;
+  }
+}
+
+/* ========== Accessibility ========== */
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+
+  .card img {
+    transition: none;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+
+  .card:hover img {
+    transform: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1a1a1a;
+    --color-text-dark: #ffffff;
+    --color-border: #333333;
+  }
+
+  .white {
+    background-color: #2a2a2a;
+  }
+}
+
+/* ========== Focus States for Keyboard Navigation ========== */
+.card:focus-within {
+  outline: 2px solid var(--color-yellow-500);
+  outline-offset: 2px;
+}
