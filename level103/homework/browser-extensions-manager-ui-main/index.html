@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Extensions List</h1>
+            <div class="filters">
+                <span class="filter-btn active">All</span>
+                <span class="filter-btn">Active</span>
+                <span class="filter-btn">Inactive</span>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <div class="card-content">
+                    <div class="icon" style="background-color: #e2f3e8;"></div>
+                    <div class="text">
+                        <h3>DevLens</h3>
+                        <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="remove-btn">Remove</button>
+                    <div class="toggle active"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="icon" style="background-color: #e0f2fe;"></div>
+                    <div class="text">
+                        <h3>StyleSpy</h3>
+                        <p>Instantly analyze and copy CSS from any webpage element.</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="remove-btn">Remove</button>
+                    <div class="toggle active"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="icon" style="background-color: #ffe4e6;"></div>
+                    <div class="text">
+                        <h3>SpeedBoost</h3>
+                        <p>Optimizes browser resource usage to accelerate page loading.</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="remove-btn">Remove</button>
+                    <div class="toggle"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="icon" style="background-color: #f5e1ff;"></div>
+                    <div class="text">
+                        <h3>JSONWizard</h3>
+                        <p>Formats, validates, and prettifies JSON responses in-browser.</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="remove-btn">Remove</button>
+                    <div class="toggle active"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="icon" style="background-color: #e3e1ff;"></div>
+                    <div class="text">
+                        <h3>TabMaster Pro</h3>
+                        <p>Organizes browser tabs into groups and sessions.</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="remove-btn">Remove</button>
+                    <div class="toggle active"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="icon" style="background-color: #e0f2fe;"></div>
+                    <div class="text">
+                        <h3>ViewportBuddy</h3>
+                        <p>Simulates various screen resolutions directly within the browser.</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="remove-btn">Remove</button>
+                    <div class="toggle"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="icon" style="background-color: #e0f2fe;"></div>
+                    <div class="text">
+                        <h3>Markup Notes</h3>
+                        <p>Enables annotation and notes directly onto webpages.</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="remove-btn">Remove</button>
+                    <div class="toggle active"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="icon" style="background-color: #e3e1ff;"></div>
+                    <div class="text">
+                        <h3>GridGuides</h3>
+                        <p>Overlay customizable grids and alignment guides on any webpage.</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="remove-btn">Remove</button>
+                    <div class="toggle"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="icon" style="background-color: #e2f3e8;"></div>
+                    <div class="text">
+                        <h3>Palette Picker</h3>
+                        <p>Instantly extracts color palettes from any webpage.</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="remove-btn">Remove</button>
+                    <div class="toggle active"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="icon" style="background-color: #fff4e1;"></div>
+                    <div class="text">
+                        <h3>LinkChecker</h3>
+                        <p>Scans and highlights broken links on any page.</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="remove-btn">Remove</button>
+                    <div class="toggle active"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="icon" style="background-color: #e0f7fa;"></div>
+                    <div class="text">
+                        <h3>DOM Snapshot</h3>
+                        <p>Capture and export DOM structures quickly.</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="remove-btn">Remove</button>
+                    <div class="toggle"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="icon" style="background-color: #e8f5e9;"></div>
+                    <div class="text">
+                        <h3>ConsolePlus</h3>
+                        <p>Enhanced developer console with advanced filtering.</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="remove-btn">Remove</button>
+                    <div class="toggle active"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

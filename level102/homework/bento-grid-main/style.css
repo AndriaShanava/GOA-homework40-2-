@@ -50,6 +50,16 @@ body {
 .yellow-100 { 
     background-color: hsl(31, 66%, 93%); color: black; 
 }
+.yellow-100 em{
+    color: hsl(256, 67%, 59%);
+}
+
+.yellow-100 h2{
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
 .white { 
     background-color: white; color: black; border: 1px solid #e5e5e5; 
 }
