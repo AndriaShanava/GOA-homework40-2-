@@ -72,7 +72,7 @@ let letter = prompt("Enter a letter:");
 console.log(userName2.startsWith(letter));
 
 // 14)მომხმარებელს შემოატანინე რაიმე სახელი ოღონდ დიდი ასოებით,შენი დავალებაა გადააქციო ეს სახელი პატარა ასოებად და გამოიტანო კონსოლში
-let userName3 = prompt("Enter your name in uppercase:".toUpperCase());
+let userName3 = prompt("Enter your name in uppercase:").toUpperCase();
 console.log(userName3.toLowerCase());
 
 // 15)მომხმარებელს შემოატანინე რაიმე სტრინგი რასაც გარშემო ექნება სფეისები,შენი დავალებაა დააკონსოლლოგო ეს სტრინგი სფეისების გარეშე
