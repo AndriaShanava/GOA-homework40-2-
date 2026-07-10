@@ -46,7 +46,6 @@ array10.splice(1, 1, 'm', 'n')
 console.log(array10)
 
 // toSpliced() - ეს მეთოდი იგივე ფუნქციას ასრულებს, რაც splice(), მაგრამ იგი არ ცვლის ორიგინალ სიას, არამედ ქმნის ახალ სიას.
-// მაგალითი 1:
 let array11 = [1, 2, 3, 4, 5]
 let newArray = array11.toSpliced(1, 2, 'a', 'b')
 console.log(newArray)
