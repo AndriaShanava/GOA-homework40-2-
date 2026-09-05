@@ -4,10 +4,10 @@ function greet() {
   console.log("Hello!");
 }
 
-function process(greet) {
-  greet();
+function process(callback) {
+  callback()
 }
-
+process(greet)
 
 // 2)შექმენი:
 // sayHello()
@@ -24,9 +24,11 @@ function sayBye() {
   console.log("Bye!");
 } 
 
-function process(sayHello) {
-  sayHello();
+function process(callback) {
+  callback();
 }
+process(sayHello)
+process(sayBye)
 
 // 3)შექმენი ფუნქცია showNumber, რომელსაც პარამეტრად გადაეცემა რიცხვი და ბეჭდავს მას.
 // შექმენი processNumber, რომელსაც გადაეცემა:
@@ -42,6 +44,7 @@ function showNumber(num) {
 function processNumber(num, callback) {
   callback(num);
 }
+processNumber(10, showNumber)
 
 // 4)საშუალო — Callback + მონაცემის გადაცემა
 // ორი მოქმედება რიცხვზე
@@ -67,7 +70,8 @@ function square(number) {
 function calculate(number, callback) {
   return callback(number);
 }
-
+calculate(5, double)
+calculate(5, square)
 
 // 5)შექმენი ორი ფუნქცია:
 // toUpper(text)
@@ -85,9 +89,9 @@ function toLower(text) {
 }
 
 function processText(text, callback) {
-  return callback(text);
+  callback(text);
 }
-
+processText('Andria', toUpper)
 // 6)შექმენი:
 // formal(name)
 // friendly(name)
@@ -108,9 +112,9 @@ function friendly(name) {
 }
 
 function greetUser(name, callback) {
-  return callback(name);
+  callback(name);
 }
-
+greetUser('goga', formal)
 // 7)შექმენი:
 // isEven(number)
 // isPositive(number)
@@ -131,6 +135,7 @@ function isPositive(number) {
 }
 
 function checkNumber(number, callback) {
-  console.log(callback(number));
+  callback(number);
 }
 
+console.log(checkNumber(4, isEven))
