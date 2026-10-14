@@ -122,7 +122,7 @@ let character = {
 }
 console.log(character.name)
 console.log(character["health"])
-character.level = 11
+character.level += 1
 character.health = 80
 character.armor = "Steel Armor"
 character["favorite weapon"] = "Sword"
