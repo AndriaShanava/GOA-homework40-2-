@@ -272,7 +272,7 @@ employee.address.details.street = "Rustaveli";
 employee.address.details.building = 25;
 employee.address.country = "Georgia";
 employee.skills.push("React");
-delete employee.skills[1];
+employee.skills.splice(1, 1);
 employee.skills.shift();
 employee.active = true;
 console.log(employee);
@@ -437,3 +437,4 @@ function updateCart(cart) {
 }
 updateCart(cart);
 console.log(cart);
+ 
