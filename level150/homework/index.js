@@ -92,6 +92,5 @@ let employees = [
 // 4. find()-ით იპოვე პირველი თანამშრომელი, რომლის ხელფასიც 3000-ზე მეტია.
 let filtered = employees.filter(employee => employee.department === "IT");
 let totalSalary = employees.reduce((acc, employee) => acc + employee.salary);
-let increasedSalaries = employees.map(employee => (employee.salary + 200));
+let increasedSalaries = employees.map(employee => employee.salary + 200);
 let found = employees.find(employee => employee.salary > 3000);
-
