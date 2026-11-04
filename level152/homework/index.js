@@ -8,8 +8,9 @@ let student = {
     }
 };
 
-student.fullName
+console.log(student.fullName)
 student._name = "Giorgi"
+console.log(student.fullName)
 // მოთხოვნები:
 // 1. შექმენი fullName getter, რომელიც აბრუნებს მოსწავლის სახელსა და გვარს შორის გამოტოვებით გაერთიანებულ ტექსტს.
 // 2. fullName-ის გამოძახებისას უნდა მიიღო Nika Beridze.
@@ -64,7 +65,7 @@ player.status
 // 4. შეცვალე მოთამაშის დონე და ჯანმრთელობა.
 // 5. ხელახლა გამოიტანე player.status.
 
-4)
+// 4)
 let student = {
     _name: "Ana",
     _surname: "Maisuradze",
@@ -81,10 +82,10 @@ let student = {
     }
 };
 
-student.fullName
-student.averageScore
-student._math = 95
-student.averageScore
+// student.fullName
+// student.averageScore
+// student._math = 95
+// student.averageScore
 // მოთხოვნები:
 // 1. fullName getter-მა უნდა დააბრუნოს სტუდენტის სახელი და გვარი.
 // 2. averageScore getter-მა უნდა გამოთვალოს სამ საგანში მიღებული ქულების საშუალო არითმეტიკული.
